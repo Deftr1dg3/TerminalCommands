@@ -11,4 +11,3 @@ def validate_password_strenght(password: str) -> bool:
 
 
 
-# made some changes
