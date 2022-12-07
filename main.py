@@ -15,3 +15,7 @@ def validate_password_strenght(password: str) -> bool:
 
 
 
+def hello_world():
+    print('Hello World')
+
+# hello_world()
