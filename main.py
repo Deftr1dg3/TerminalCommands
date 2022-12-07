@@ -2,7 +2,7 @@ import re
 
 def validate_password_strenght(password: str) -> bool:
     '''Function takes string as an argument, delets possible
-    spases at the begining and in the end, checks if the string
+    spases at the begining and in the end of the string, checks if the string
     contains required charcters and returns "bool" value'''
 
     p = password.strip()

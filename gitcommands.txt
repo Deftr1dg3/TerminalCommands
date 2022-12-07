@@ -1,16 +1,21 @@
 git config --global user.name "you_name_here"  To show who made commit
 git config --global  user.email "email_from_git_system"
-
+git remote add origin "https://github.com/your_repo"  -  Add your repo from Git Service to "origin" variable,
+														connect to the repo.
+			
 git clone "https://github.com/your_repo" - Clone repository to your pc
 git add "file_name.ext"  -  Add file to git repo 
 git status  -  Show files status (Weather in git/commited or not)
 git commit -m "Made next changes: 1, 2, 3 ... n (required)"  -  Commit changes
 git branch -M "branch name, for example - 'main'"   -  Name the branch
-git remote add origin "https://github.com/your_repo"  -  Add your repo from Git Service to origin variable 
-git push -u origin main  -  Push to the "main" branch of  "origin" Git Repo 
+
+git push -u origin main  -  Push to the "main" branch of "origin" Git Repo 
 
 git restore --staged "file_name"  -  Remove from Git 
 git rm --cached "file_name"  -  Remove from Git 
 git rm -f "file_name"  -  Remove from Git and from folder
 
 git log  -   Shows logs
+git diff  -  To check waht files were changed and where. 
+				Possible to restore previous stage of the file
+				usinf 'git restore "file_name"'
