@@ -19,3 +19,5 @@ git log  -   Shows logs
 git diff  -  To check waht files were changed and where. 
 				Possible to restore previous stage of the file
 				usinf 'git restore "file_name"'
+
+git checkout "name_of_the_branch"   -  To change branch 
