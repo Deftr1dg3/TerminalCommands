@@ -8,8 +8,10 @@ git add "file_name.ext"  -  Add file to git repo
 git status  -  Show files status (Weather in git/commited or not)
 git commit -m "Made next changes: 1, 2, 3 ... n (required)"  -  Commit changes
 git branch -M "branch name, for example - 'main'"   -  Name the branch
+git branch  -  Show list of branches
 
-git push -u origin main  -  Push to the "main" branch of "origin" Git Repo 
+git push -u origin main  -  Push to the "main" branch of "origin" Git Repo
+git remote update / git fetch origin  -  To update you repo from the "origin"
 
 git restore --staged "file_name"  -  Remove from Git 
 git rm --cached "file_name"  -  Remove from Git 
@@ -20,6 +22,7 @@ git diff  -  To check waht files were changed and where.
 				Possible to restore previous stage of the file
 				usinf 'git restore "file_name"'
 
+git switch "name_of_the_branch"  -  To change branch 
 git checkout "name_of_the_branch"   -  To change branch 
 git merge "branch_name"  -  To merge two branches, execute only from the main branch
 
