@@ -7,10 +7,14 @@ git clone "https://github.com/your_repo" - Clone repository to your pc
 git add "file_name.ext"  -  Add file to git repo 
 git status  -  Show files status (Weather in git/commited or not)
 git commit -m "Made next changes: 1, 2, 3 ... n (required)"  -  Commit changes
-git branch -M "branch name, for example - 'main'"   -  Name the branch
-git branch  -  Show list of branches
+git branch -M "branch name, for example - 'main'"   - Create branch 
+git branch -a  -  Show list of branches
+git branch -d/-D(forced delete) "branch_name"  -  Delete branch
 
 git push -u origin main  -  Push to the "main" branch of "origin" Git Repo
+git push -f origin main  -  Forced push.
+git push origin --delete "branch_name"  -  Delete branch
+git push origin :"branch_name"  -  Also to delete branch
 git remote update / git fetch origin  -  To update you repo from the "origin"
 
 git restore --staged "file_name"  -  Remove from Git 
