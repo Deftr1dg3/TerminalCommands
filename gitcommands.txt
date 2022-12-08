@@ -31,3 +31,4 @@ git switch "name_of_the_branch"  -  To change branch
 git checkout "name_of_the_branch"   -  To change branch 
 git merge "branch_name"  -  To merge two branches, execute only from the main branch
 
+git reset --hard "commit id"  -  Rollback to specific commit.
