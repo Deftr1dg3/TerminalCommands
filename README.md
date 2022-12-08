@@ -1,2 +1,2 @@
-Very important project description:
-PAST HERE
+In this repo stored some Terminal commands,
+sorted by file names. 
