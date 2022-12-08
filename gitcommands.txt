@@ -18,6 +18,7 @@ git rm --cached "file_name"  -  Remove from Git
 git rm -f "file_name"  -  Remove from Git and from folder
 
 git log  -   Shows logs
+git log --oneline --graph --all  -  Logs on Oneline + graph
 git diff  -  To check waht files were changed and where. 
 				Possible to restore previous stage of the file
 				usinf 'git restore "file_name"'
