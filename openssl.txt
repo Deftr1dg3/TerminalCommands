@@ -26,5 +26,9 @@ openssl enc -aes-256-cbc (-base64 'optional') -d ('means - decrypt') -in "encryp
 
 
 
+HASH --------------------------
+
+Hash string:
+echo "Some string" | openssl dgst -sha256
 
 
