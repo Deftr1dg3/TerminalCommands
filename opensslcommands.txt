@@ -1,0 +1,30 @@
+RSA -----------------------------
+
+Generate RSA key pair:
+openssl genrsa -out privk.pem 4096
+
+Check privk.pem file content:
+openssl rsa -in privk.pem (-out possible put content to a new file) -text
+
+Extract Public key to a different file:
+openssl rsa -in privk.pem -out pubk.pem -pubout
+
+Encrypt message with Public key:
+openssl rsautl -encrypt -inkey "pub_k.pem file" -in "message file" -out "encrypted message" -pubin
+
+Decrypt message using Private key:
+openssl rsautl -decrypt -inkey "priv_k.pem file" -in "encrypted messages" -out "decrypted message"
+
+
+AES ----------------------------
+
+Encrypt file:
+openssl enc -aes-256-cbc (-base64 'optional') -in "file_to_encrypt" -out "encrypted_file"
+
+Decrypt file:
+openssl enc -aes-256-cbc (-base64 'optional') -d ('means - decrypt') -in "encrypted_file" -out "decrypted_file"
+
+
+
+
+
