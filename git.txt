@@ -29,6 +29,10 @@ git diff  -  To check waht files were changed and where.
 
 git switch "name_of_the_branch"  -  To change branch 
 git checkout "name_of_the_branch"   -  To change branch 
-git merge "branch_name"  -  To merge two branches, execute only from the main branch
+git merge "branch_name"  -  To merge two branches in their current state.
+							Execute from the brnch, you want to update.
+git rebase "branch_name"  - To merge branches in another way,
+							it connects all commits from the current branch starting
+							from the latest commit of the main branch.
 
 git reset --hard "commit id"  -  Rollback to specific commit.
